@@ -1,0 +1,145 @@
+.tum-sayfa{
+  width: 100%;
+  background-color: #000000;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.animasyon {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+.left{
+  color: aliceblue;
+  font-size: 100px;
+  text-align: center;
+}
+.cont{
+  width: 50%;
+  margin-left: 10%;
+}
+.form-group{
+  background-color: #000000;
+}
+.cont input{
+  background-color: #000000;
+  color: white;
+}
+.cont input:focus{
+  background-color: #000000;
+  color: white;
+}
+.login-cont input{
+  background-color: #000000;
+  color: white;
+}
+.login-cont input:focus{
+  background-color: #000000;
+  color: white;
+}
+.login-cont label, .cont label{
+  font-size: 10px;
+}
+
+.register-content{
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  z-index: 2;
+  padding: 10px;
+}
+.register-buton .reg-buton{
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgb(29, 155, 240);
+  text-align: center;
+}
+.p{
+  font-size: 12px;
+  
+}
+.gfhg .login-buton{
+  z-index: 2;
+
+}
+.login-buton .log-buton{
+  background-color: #0E1F2F;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid rgb(29, 155, 240);
+  text-align: center;
+  color: rgb(29, 155, 240);
+}
+
+.login-buton .log-btn{
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid rgb(29, 155, 240);
+  text-align: center;
+  color: rgb(29, 155, 240);
+
+
+}
+.login-buton .log-btn:hover{
+  background-color: rgba(29, 156, 240, 0.186);
+  border: 1px solid rgb(29, 155, 240);
+  color: white;
+
+
+}
+
+.login-buton .log-buton:hover{
+  border: 1px solid rgb(29, 155, 240);
+  color: rgb(29, 155, 240);
+  background-color: rgba(29, 156, 240, 0.613);
+}
+.register-buton .reg-buton:hover{
+  background-color: rgba(29, 156, 240, 0.814);
+  color: #0E1F2F;
+}
+.modal-dialog .modal-content{
+  background-color: #000000;
+  box-shadow:  0.2px 0.2px 20px 0.2px #dddddd8b;
+  margin: auto;
+  padding: 2%;
+  padding-bottom: 8%;
+}
+.form-group {
+  color: white;
+}
+
+/* Yıldızlar kapsayıcı */
+.stars-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Yıldız stili */
+.star {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: moveUp infinite;
+}
+
+/* Animasyon */
+@keyframes moveUp {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+}

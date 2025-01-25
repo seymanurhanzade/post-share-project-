@@ -1,0 +1,18 @@
+.input-text{
+    border: 1px solid black;
+    height: 7vh;
+    color: white;
+}
+
+.comment-add .row{
+    margin: auto;
+}
+.comment-button .btn{
+    background-color: #4c4c4c;
+    border-radius: 50px;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+.comment-button .btn:hover{
+    background-color: #494949;
+}

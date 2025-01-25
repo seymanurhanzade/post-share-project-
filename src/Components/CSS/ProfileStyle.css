@@ -1,0 +1,29 @@
+.profile-nav a:hover {
+    background-color: #313131d6;
+}
+.followTotal .followTotal-row{
+    width: 80%;
+}
+.takip-col{
+    display: flex;
+    justify-content: flex-end;
+}
+.takip-buton{
+    margin-top: auto;
+    float: right;
+    
+}
+.takip-buton button{
+    border: 2px solid rgba(25, 71, 255, 0.838);
+    color: white;
+    border-radius: 50px;
+}
+.takip-buton button:hover{
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.838);
+    color: white;
+    background-color: #3f3f3fbe;
+}
+.border-radius-50{
+    border-radius: 50px;
+}

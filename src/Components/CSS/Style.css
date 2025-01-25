@@ -1,0 +1,231 @@
+@keyframes slideIn{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut{
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+@keyframes slideInR{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOutR{
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+.success-alert{
+    padding:10px;
+    width: 15%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 50%;
+    position: absolute;
+    animation: slideIn 0.5s ease-out forwards;
+    border-radius: 2px;
+}
+.success-alert.hide{
+    animation: slideOut 0.5s ease-out forwards;
+}
+.success-alert-register{
+    padding:10px;
+    width: 15%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    position: absolute;
+    animation: slideInR 0.5s ease-out forwards;
+    border-radius: 2px;
+}
+.success-alert-register.hide{
+    animation: slideOutR 0.5s ease-out forwards;
+}
+.icerik{
+    border: 1px solid rgba(226, 226, 226, 0.485);
+    border-top: 0;
+    min-height: 100vh;
+}
+.fullname {
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.fullname:hover {
+    text-decoration:underline;
+}
+.username:hover{
+    text-decoration:underline;
+}
+.username {
+    margin-left: 10px; /* Boşluk eklemek için */
+    color: rgba(224, 224, 224, 0.875);
+    font-size: 13px;
+
+}
+.time {
+    font-size: 10px;
+    color: rgb(173, 173, 173);
+    font-weight: 200;
+    float: right;
+}
+.share {
+    line-height: 17px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.icons{
+    width: 100%;
+    padding-left: 8%;
+    padding-right:8%;
+}
+.delete{
+    display: inline-block;
+}
+.icon a,.icon-comment a,.icon-heart a,.icon-faTrash a{
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+    text-align: center;
+}
+.icon-heart-a-like, .icon-comment-a-com, .icon-faTrash-a-com{
+    padding: 4px;
+    padding-left: 8;
+    padding-right: 8;
+}
+.inline-block{
+    display: inline-block;
+}
+.icon-heart-a-like:hover{
+   background-color: rgba(255, 0, 0, 0.077);
+}
+.icon-comment-a-com:hover{
+    background-color: rgba(9, 255, 0, 0.077);
+}
+.imgprofile{
+    display: inline-block;
+    text-align: center;
+}
+.img-profile{
+    width: 60px; 
+    height:  60px; 
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border:3px solid black;
+    border-radius: 50%;
+}
+.img-profile img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+
+}
+.imgprofile img:hover{
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    filter: brightness(90%);
+}
+.p-imgprofile{
+    display: inline-block;
+    text-align: center;
+}
+.p-img-profile{
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border:3px solid black;
+    border-radius: 50%;
+}
+.p-img-profile img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+
+}
+.p-imgprofile img:hover{
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    filter: brightness(90%);
+}
+.yhj{
+    border-bottom: 0.01px solid rgba(128, 128, 128, 0.503);
+}
+.border-radius-50{
+    border-radius: 50px;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-hover:hover{
+    background-color: #262626;
+}
+.font-12{
+    font-size: 12px;
+}
+.transition-03{
+    transition: 0.3s;
+}
+.row-h-100{
+    height: 100%;
+}
+.display-grid-place-item{
+    display: grid;
+    place-items: center
+}
+.w-100{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.admin-menu{
+    color: white;
+    min-height: 95vh;
+}
+.admin-menu, .header{
+    background-color: #262626;
+    color: white;
+}
+.admin-secenekler a{
+    text-decoration: none;
+    color: white;
+}
+.admin-secenekler:hover{
+    text-decoration: none;
+    background-color: #5c5c5c69;
+}

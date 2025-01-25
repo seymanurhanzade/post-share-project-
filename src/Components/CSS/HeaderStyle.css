@@ -1,0 +1,50 @@
+.navbar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+
+}
+/* .cizgi{
+    border-left: 2px solid rgba(0, 0, 0, 0.444);
+    height: 25px;
+} */
+.register-buton a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+    font-size: 14px;
+}
+.navbar-back{
+    width: 60%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+.collapse{
+    color: rgb(225, 225, 225);
+    margin: auto;
+
+}
+.col-username{
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    float: right;
+}
+.col-username:hover{
+    background-color: #222222;
+}
+
+#collapseExample .card{
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    margin-left: 75%;
+    background-color: #0E1F2F;
+    color: aliceblue;
+    border: 1px solid rgba(255, 255, 255, 0.358); 
+    box-shadow: 1px 1px 5px  rgba(255, 255, 255, 0.358);
+}
+#collapseExample a{
+    color: aliceblue;
+    text-decoration: none;
+}
