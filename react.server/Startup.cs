@@ -80,6 +80,8 @@ namespace react.server
         {
             if (env.IsDevelopment())
             {
+                    context.Database.Migrate();
+
                 SeedIdentity.Seed(userManager, roleManager, configuration, context).Wait();
                 app.UseDeveloperExceptionPage();
             }
